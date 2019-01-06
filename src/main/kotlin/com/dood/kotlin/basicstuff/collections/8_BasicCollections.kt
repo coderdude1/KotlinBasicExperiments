@@ -13,13 +13,13 @@ private fun createBasicCollections() {
     set.add("four")
     println("create a set $set")
     println("  set is ${set.javaClass}")
-    println("  kotlin adds max to set lastElement: ${set.max()}")
+    println("  kotlin adds max to set lastElement: ${set.max()}")//these are implemented via extensions to the java collections api
 
     val list = arrayListOf("one", "two", "two", "three")
     list.add("seventeen")
     println("\ncreate a list $list")
     println("  list is type ${list.javaClass}")
-    println("  kotlin adds last to list meaxElement: ${list.last()}")
+    println("  kotlin adds last to list meaxElement: ${list.last()}") //these are implemented via extensions to the java collections api
 
     list.add("blah")
     println("added a new element: $list") //note no {}
