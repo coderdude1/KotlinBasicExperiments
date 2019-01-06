@@ -7,6 +7,12 @@ package com.dood.kotlin.basicstuff.functions
  * An extension function is simply a function thac can be called as a member of a class, but is defined outside of it
  *
  * you cannot override an extension function
+ *
+ * Extension functions are a great alternative to util classes, ie StringUtils can actually just add the fun to the
+ * string objects, etc
+ *
+ * Extension functions can be overused, resulting in harder to manage code too.
+ *      https://www.philosophicalhacker.com/post/how-to-abuse-kotlin-extension-functions/
  */
 
 /**
