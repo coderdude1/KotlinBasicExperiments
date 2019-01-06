@@ -24,6 +24,10 @@ fun main(args: Array<String>) {
     val userClassOne = UserClass("name", 20, null) //works (note it's all positional notation not named
 //    val userClassOne = UserClass("name", age=20) //invalid since no address (no default value for it)
     println("user name ${userClassOne.address}") //note we call property direct, not getter and this prop is null
+    println("userClass before ageChange = ${userClassOne.age}") //note no toString on the userClass
+    userClassOne.age = 37
+    println("userClass after age change = ${userClassOne.age}")
+
 
     val userDataClass = UserDataClass("name", 22, "somewhere in the world")
     val copyUserDataClass = userDataClass.copy()
