@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa793436-04c8-4f41-b351-f68ba6e4d584" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/start_basic_lambda_stuff.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/start_basic_lambda_stuff/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="C:\Users\randy\IdeaProjects\basicstuff\.idea\shelf/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/16_Constructors.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/14_InterfacesAndImpls.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/17_CustomGettersSetters.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/18_classDelegation.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/19_ObjectKeywordAndSingletons.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/20_CompanionObjects.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/3_BasicKotlinClasses.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/Strings.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="102">
+                <caret line="6" column="114" selection-start-line="6" selection-start-column="114" selection-end-line="6" selection-end-column="114" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/helloworld/HelloWorld.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/nullsafety/nullsafety.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/CustomAccessors.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/KotlinClasses.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/README.md" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/EnumsAndWhen.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/Interfaces.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/4_CustomAccessors.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/iteration/Iteration.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/iteration/7_Iteration.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/collections/BasicCollections.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/functions/functions.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/functions/TopLevelFunctionsAndProps.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/3_5_destructuring.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/3_KotlinClasses.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/collections/8_BasicCollections.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/functions/11_ExtensionFunctions.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/13_destructuringInfixPairs.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/14_MoreInterfaces.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/15_ClassVisibilityAndInheritance.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/16_Constructors.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/14_InterfacesAndImpls.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/17_CustomGettersSetters.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/18_classDelegation.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/19_ObjectKeywordAndSingletons.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/20_CompanionObjects.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/lambdas/21_IntroToLambdas.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="2658" />
+    <option name="height" value="1756" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="basicstuff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basicstuff" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547096632046" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.dood.kotlin.basicstuff" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.com.dood.kotlin.basicstuff.classesAndSuch._14_InterfacesAndImplsKt">
+    <configuration name="com.dood.kotlin.basicstuff.classesAndSuch._14_InterfacesAndImplsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="com.dood.kotlin.basicstuff.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dood.kotlin.basicstuff.classesAndSuch._14_InterfacesAndImplsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.dood.kotlin.basicstuff.classesAndSuch._3_BasicKotlinClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="com.dood.kotlin.basicstuff.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dood.kotlin.basicstuff.classesAndSuch._3_BasicKotlinClassesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.dood.kotlin.basicstuff.collections._8_BasicCollectionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="com.dood.kotlin.basicstuff.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dood.kotlin.basicstuff.collections._8_BasicCollectionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.dood.kotlin.basicstuff.functions._11_ExtensionFunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="com.dood.kotlin.basicstuff.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dood.kotlin.basicstuff.functions._11_ExtensionFunctionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.dood.kotlin.basicstuff.functions._9_functionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="com.dood.kotlin.basicstuff.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dood.kotlin.basicstuff.functions._9_functionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.com.dood.kotlin.basicstuff.classesAndSuch._14_InterfacesAndImplsKt" />
+        <item itemvalue="Kotlin.com.dood.kotlin.basicstuff.functions._11_ExtensionFunctionsKt" />
+        <item itemvalue="Kotlin.com.dood.kotlin.basicstuff.classesAndSuch._3_BasicKotlinClassesKt" />
+        <item itemvalue="Kotlin.com.dood.kotlin.basicstuff.collections._8_BasicCollectionsKt" />
+        <item itemvalue="Kotlin.com.dood.kotlin.basicstuff.functions._9_functionsKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa793436-04c8-4f41-b351-f68ba6e4d584" name="Default Changelist" comment="" />
+      <created>1546295918081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546295918081</updated>
+      <workItem from="1546295923829" duration="43312000" />
+      <workItem from="1547086513478" duration="6548000" />
+      <workItem from="1547096031101" duration="542000" />
+    </task>
+    <task id="LOCAL-00001" summary="Start of project">
+      <created>1546316955819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546316955819</updated>
+    </task>
+    <task id="LOCAL-00002" summary="basic hello world">
+      <created>1546319763484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546319763484</updated>
+    </task>
+    <task id="LOCAL-00003" summary="some basic nullsafety using the safe call operator, creating a class with null and not null values in the constructor, and using the let operator.  also an example of using a string template">
+      <created>1546325033433</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546325033433</updated>
+    </task>
+    <task id="LOCAL-00004" summary="some basic nullsafety using the safe call operator, creating a class with null and not null values in the constructor, and using the let operator.  also an example of using a string template">
+      <created>1546325296550</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546325296550</updated>
+    </task>
+    <task id="LOCAL-00005" summary="classes, interfaces and when blocks.  renamed to have numbers to indicate order for demo">
+      <created>1546376630854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546376630854</updated>
+    </task>
+    <task id="LOCAL-00006" summary="basic iteration">
+      <created>1546656778179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546656778179</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added more range stuff">
+      <created>1546658537603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546658537603</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added basic collection utils">
+      <created>1546659516678</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546659516678</updated>
+    </task>
+    <task id="LOCAL-00009" summary="some simple functions">
+      <created>1546663713919</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546663713919</updated>
+    </task>
+    <task id="LOCAL-00010" summary="set default line seperator to UNIX/linux">
+      <created>1546663932175</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1546663932175</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added comment">
+      <created>1546664599704</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1546664599704</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added top level props/functions">
+      <created>1546665417013</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1546665417013</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added TODO for destructing">
+      <created>1546665975216</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1546665975216</updated>
+    </task>
+    <task id="LOCAL-00014" summary="reanmed file to include order number">
+      <created>1546666209629</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1546666209629</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added a bit more collection stuff">
+      <created>1546743045998</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1546743045998</updated>
+    </task>
+    <task id="LOCAL-00016" summary="tweeked class stuf">
+      <created>1546743714726</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1546743714726</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added some basic extension function stuff">
+      <created>1546744462191</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1546744462191</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated comment about kotlin using extension functions to extend the java collection api">
+      <created>1546745096825</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1546745096825</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added shell for extension property examples">
+      <created>1546745114566</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1546745114566</updated>
+    </task>
+    <task id="LOCAL-00020" summary="minor comments and renamed class">
+      <created>1546746021088</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1546746021088</updated>
+    </task>
+    <task id="LOCAL-00021" summary="other stuff">
+      <created>1547086588823</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1547086588823</updated>
+    </task>
+    <task id="LOCAL-00022" summary="some interface impls">
+      <created>1547087456771</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1547087456771</updated>
+    </task>
+    <task id="LOCAL-00023" summary="visibility modifiers">
+      <created>1547089098824</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1547089098824</updated>
+    </task>
+    <task id="LOCAL-00024" summary="more class stuff">
+      <created>1547090498320</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1547090498320</updated>
+    </task>
+    <task id="LOCAL-00025" summary="start basic lambda stuff">
+      <created>1547090746805</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1547090746805</updated>
+    </task>
+    <task id="LOCAL-00026" summary="string placeholder">
+      <created>1547090786180</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1547090786180</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50402000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1329" height="878" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23839496" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23395722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.37781954" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.328877" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.328877" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="basic hello world" />
+    <MESSAGE value="some basic nullsafety using the safe call operator, creating a class with null and not null values in the constructor, and using the let operator.  also an example of using a string template" />
+    <MESSAGE value="classes, interfaces and when blocks.  renamed to have numbers to indicate order for demo" />
+    <MESSAGE value="basic iteration" />
+    <MESSAGE value="added more range stuff" />
+    <MESSAGE value="added basic collection utils" />
+    <MESSAGE value="some simple functions" />
+    <MESSAGE value="set default line seperator to UNIX/linux" />
+    <MESSAGE value="added comment" />
+    <MESSAGE value="added top level props/fucntions" />
+    <MESSAGE value="added top level props/functions" />
+    <MESSAGE value="added TODO for destructing" />
+    <MESSAGE value="reanmed file to include order number" />
+    <MESSAGE value="added a bit more collection stuff" />
+    <MESSAGE value="tweeked class stuf" />
+    <MESSAGE value="added some basic extension function stuff" />
+    <MESSAGE value="updated comment about kotlin using extension functions to extend the java collection api" />
+    <MESSAGE value="added shell for extension property examples" />
+    <MESSAGE value="minor comments and renamed class" />
+    <MESSAGE value="other stuff" />
+    <MESSAGE value="some interface impls" />
+    <MESSAGE value="visibility modifiers" />
+    <MESSAGE value="more class stuff" />
+    <MESSAGE value="start basic lambda stuff" />
+    <MESSAGE value="string placeholder" />
+    <option name="LAST_COMMIT_MESSAGE" value="string placeholder" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/5_EnumsAndWhen.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="31" column="97" selection-start-line="31" selection-start-column="97" selection-end-line="31" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/helloworld/1_HelloWorld.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/nullsafety/2_nullsafety.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/functions/10_TopLevelFunctionsAndProps.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/4_CustomAccessors.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/iteration/7_Iteration.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/13_destructuringInfixPairs.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/functions/11_ExtensionFunctions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/functions/12_extensionProperties.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/collections/8_BasicCollections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="99" selection-start-line="7" selection-start-column="99" selection-end-line="7" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/functions/9_functions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="5" selection-start-line="45" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/6_Interfaces.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/15_ClassVisibilityAndInheritance.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/lambdas/21_IntroToLambdas.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/16_Constructors.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/14_InterfacesAndImpls.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/17_CustomGettersSetters.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/18_classDelegation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/19_ObjectKeywordAndSingletons.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/20_CompanionObjects.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/3_BasicKotlinClasses.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/classesAndSuch/Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/dood/kotlin/basicstuff/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="114" selection-start-line="6" selection-start-column="114" selection-end-line="6" selection-end-column="114" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
