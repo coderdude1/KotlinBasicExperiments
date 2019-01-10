@@ -14,3 +14,5 @@ fun main(args: Array<String>) {
     Button().click()
     Button().showOff()
 }
+
+//TODO add properties to an interface
