@@ -44,6 +44,10 @@ fun main(args: Array<String>) {
 
     println("sum ${sum(1, 3)}")
     passingLambdaAsNamedArg(users)
+    val listOfStrings = listOf("400", "403", "501")
+    printMessagesWithPrefix(listOfStrings, "prefix")
+    printProblemCounts(listOfStrings)
+    printMaxUserAgeAndSalute(users)
 }
 
 private fun passingLambdaAsNamedArg(people: List<UserDataClass>) {
@@ -69,3 +73,32 @@ private fun findTheOldestPerson(people: List<UserDataClass>) {
     }
     println(theOldest)
 }
+
+private fun printMessagesWithPrefix(messages: Collection<String>, prefix: String) {
+    println("accessing a locally scoped param from inside a lambda")
+    messages.forEach {
+        println("$prefix $it") //accessing a local scoped var from the lambda
+    }
+}
+
+//in kotlin you can access non final variables (Unlike java).  you can mutate vars that are declared outside of the lambda but in scope
+private fun printProblemCounts(responses: Collection<String>) {
+    var clientErrors = 0 //these are 'captured' by the lambda
+    var serverErrors = 0
+    responses.forEach {
+        if (it.startsWith("4")) { //TODO rewrite with a when?
+            clientErrors++
+        } else if (it.startsWith("5")) {
+            serverErrors++
+        }
+    }
+    println("clientErrorCount: $clientErrors serverErrorCounts: $serverErrors")
+}
+
+private fun printMaxUserAgeAndSalute(user: Collection<UserDataClass>) {
+    val maxAge = user.maxBy(UserDataClass::age)
+    println("Oldest user is $maxAge")
+    run(::salute) //invoke by method reference a top level fun
+}
+
+private fun salute() = println("salute")
