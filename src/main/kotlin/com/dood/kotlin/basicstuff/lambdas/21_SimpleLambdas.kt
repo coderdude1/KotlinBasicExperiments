@@ -48,6 +48,7 @@ fun main(args: Array<String>) {
     printMessagesWithPrefix(listOfStrings, "prefix")
     printProblemCounts(listOfStrings)
     printMaxUserAgeAndSalute(users)
+    boundRefence()
 }
 
 private fun passingLambdaAsNamedArg(people: List<UserDataClass>) {
@@ -96,9 +97,15 @@ private fun printProblemCounts(responses: Collection<String>) {
 }
 
 private fun printMaxUserAgeAndSalute(user: Collection<UserDataClass>) {
-    val maxAge = user.maxBy(UserDataClass::age)
-    println("Oldest user is $maxAge")
+    val oldestUser = user.maxBy(UserDataClass::age)
+    println("Oldest user is $oldestUser")
     run(::salute) //invoke by method reference a top level fun
+}
+
+private fun boundRefence() {
+    val p = UserDataClass("blarname", 28, null)
+    val boundReferenceFunction = p::age //kotlin 1.1 and newer
+    println("age is $boundReferenceFunction")
 }
 
 private fun salute() = println("salute")
