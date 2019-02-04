@@ -28,14 +28,14 @@ fun main(args: Array<String>) {
 }
 
 private fun simpleFiltering() {
-    println("simple filtering")
+    println("\nsimple filtering")
     println("even numbers: ${listONums.filter { it % 2 == 0 }}")
 
     println("users older than 30 ${listOPeople.filter { it.age > 30 }}")
 }
 
 private fun simpleMap() {
-    println("simpleMaps")
+    println("\nsimpleMaps")
     val listONums = listOf(1, 2, 3, 4, 5, 6)
     println("squares are : ${listONums.map { it * it }}")
     println("name using method ref: ${listOPeople.map(UserDataClass::name)}") //note could just use the prop ref (get) but this shows map
@@ -47,6 +47,7 @@ private fun simpleMap() {
 }
 
 private fun predicatesOnCollections() {
+    println("\npredicateOnCollections")
     val canBeInClub27 = { p: UserDataClass -> p.age <= 27 }
     val users = listOf(UserDataClass("Snarp", 33, address = null), UserDataClass("horkle", address = null))
     println("can all enter: ${users.all(canBeInClub27)}")
@@ -62,7 +63,7 @@ private fun predicatesOnCollections() {
 
 //convert a list to a map of lists (keyed by groupBy)
 private fun groupBy() {
-    println("group by age: ${listOPeople.groupBy { it.age }}")
+    println("\ngroup by age: ${listOPeople.groupBy { it.age }}")
     val listOfStrings = listOf("a", "ab", "b")
     println("stringlength group: ${listOfStrings.groupBy(stringLength)}")
     println("first char group: ${listOfStrings.groupBy(String::first)}")
@@ -73,10 +74,15 @@ private fun groupBy() {
  * all of the lists into a single list
  */
 private fun flatStuff() {
+    println("\nflat stuff")
     val strings = listOf("abc", "def")
-    println("Flatten: ${strings.flatMap { it.toList() }}") //String.toList returns a list of chars
+    println("Flatten: ${strings.flatMap { it.toList() }}") //String.toList returns a list of all the chars
 
-    println("books: ${books.flatMap { it.authors }.toSet()}") //flatten the author collection for each book into a list, which converts to a Set
+    //flatmap returns a list of all compbined authors, toSet uniquifys it
+    println("book authors (unique): ${books.flatMap { it.authors }.toSet()}") //flatten the author collection for each book into a list, which converts to a Set
+
+    val listOfList = listOf(listOf("abc", "def"), listOf("xyx", "yyz"))
+    println("shortucut flatten list of lists ${listOfList.flatten()}")
 }
 
 class Book(val title: String, val authors: List<String>)
