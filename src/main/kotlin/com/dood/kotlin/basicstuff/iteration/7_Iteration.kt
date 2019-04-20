@@ -14,12 +14,15 @@ fun main(args: Array<String>) {
 /**
  * while and do-while loops are the same as java
  *
- * the for loop is like the c# for, ie for <item> in <elements>
+ * the for loop is like the c# for, ie for <item> in <elements>.  The for loop is very flexible, offering
+ * several variations (use it to iterate over a Collection, iterate over a collection with an index, iterate
+ * ranges with or without stepping, iterate down (downTo)
  *
  * range modifiers can be found here https://kotlinlang.org/docs/reference/ranges.html
  *
  * Note that there are integral ranges  that w can interate over, IntRange, LongRange, CharRange
  *
+ * note this is expression syntax where when{} is the block
  */
 
 fun fizzBuzz(i: Int) = when {
@@ -46,6 +49,7 @@ private fun rangeMembership() {
     println("Recognize 8 ${recognize('8')}")
 }
 
+//note the next two appear to be predicates,
 private fun isLetter(c: Char) = c in 'a'..'z' || c in 'A'..'Z'
 private fun isNotDigit(c: Char) = c !in '0'..'9'
 

@@ -5,15 +5,18 @@ fun main(args: Array<String>) {
     println("addReturnType 3 + 4 = ${addReturnType(3, 4)}")
     namedArguments()
     defaultValues()
+    anotherWayToSayNoReturnValue()
 }
 
+//normal functional body
 private fun typeInference() { //important for functions (and not functions
     val bean = ArrayIndexOutOfBoundsException() // type automatically inferred, no new operator unlike java
 }
 
+//single expression body, aka expression body, note the =
 private fun addNoReturnType(a: Int, b: Int) = a + b //inferred return type note no 'return', expresion body style fun
 
-private fun addReturnType(a: Int, b: Int): Int {
+private fun addReturnType(a: Int, b: Int): Int {  //: Int is return type (outside of paren, before {
     return a + b
 }
 
@@ -36,7 +39,7 @@ private fun namedArguments() {
 
 //this is intended to reduce the number of overloaded methods for different args.  look at java.lang.Thread and it's 8 constructors
 //note that when not using named properties, you have to set values for predeisors params, ie prefix requires seperator and collection
-private fun defaultValues() {
+private fun defaultValues() { //note this is one way of having no return value, ie nothing between ) and {
     val list = arrayListOf("one", "two", "two", "three")
     println("just the list ${joinToString(list)}")
     println("the list and prefix ${joinToString(list, prefix = "snarp")}")
@@ -55,4 +58,8 @@ private fun <T> joinToString(
     }
     result.append(postfix)
     return result.toString()
+}
+
+private fun anotherWayToSayNoReturnValue() : Unit {
+    println("note the return type 'Unit' means returns nothing or void")
 }

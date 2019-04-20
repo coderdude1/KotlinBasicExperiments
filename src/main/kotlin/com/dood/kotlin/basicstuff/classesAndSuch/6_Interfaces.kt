@@ -1,5 +1,8 @@
 package com.dood.kotlin.basicstuff.classesAndSuch
 
+/*
+Note interfaces can provide abstract or concrete implementations.  You can also defin properties on an interface
+ */
 interface Expr
 //the : Expr means that num implements Expr
 class Num(val value: Int) : Expr
