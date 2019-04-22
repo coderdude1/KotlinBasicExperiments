@@ -19,7 +19,7 @@ class UserClass(val name: String, var age: Int = 21, var address: String?)
  */
 data class UserDataClass(val name: String, var age: Int = 21, var address: String?)
 
-fun main(args: Array<String>) {
+fun main() { //args: Array<String> not needed in main since kotlin 1.3
 //    val userClass = UserClass("name", age=20) //invalid since no value passed for address (no default value for it)
     val userClassOne = UserClass("name", 20, null) //works (note it's all positional notation not named
 //    val userClassOne = UserClass("name", age=20) //invalid since no address (no default value for it)
